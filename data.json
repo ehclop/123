@@ -1,0 +1,974 @@
+[
+   {
+      "key":"TO_CHAR(pokaz_date::timestamp,'HH24')",
+      "desc":"",
+      "func":"none",
+      "name":"custom_field_1605089086063",
+      "type":"text",
+      "label":"Дата показа(Час без дня)",
+      "custom":false
+   },
+   {
+      "key":"TO_CHAR(buyer_status_date::timestamp,'MM')",
+      "desc":"",
+      "func":"none",
+      "name":"custom_field_1600271056722",
+      "type":"text",
+      "label":"Дата выставления статуса (покупатель)(Месяц без года)",
+      "custom":false
+   },
+   {
+      "key":"TO_CHAR(seller_status_date::timestamp,'DD')",
+      "desc":"",
+      "func":"none",
+      "name":"custom_field_1574791671822",
+      "type":"text",
+      "label":"Дата выставления статуса (продавец) (День без месяца)",
+      "custom":false
+   },
+   {
+      "key":"pokaz_date_year",
+      "desc":"",
+      "func":"none",
+      "name":"pokaz_date_year",
+      "type":"text",
+      "label":"Дата показа(Год)",
+      "custom":false
+   },
+   {
+      "key":"pokaz_date_month",
+      "desc":"",
+      "func":"none",
+      "name":"pokaz_date_month",
+      "type":"text",
+      "label":"Дата показа(Месяц)",
+      "custom":false
+   },
+   {
+      "key":"pokaz_date_day",
+      "desc":"",
+      "func":"none",
+      "name":"pokaz_date_day",
+      "type":"text",
+      "label":"Дата показа(День)",
+      "custom":false
+   },
+   {
+      "key":"address",
+      "desc":"",
+      "func":"none",
+      "name":"address",
+      "type":"text",
+      "label":"Адрес объекта",
+      "custom":false
+   },
+   {
+      "key":"agency_name",
+      "desc":"",
+      "func":"none",
+      "name":"agency_name",
+      "type":"text",
+      "label":"Название другого АН",
+      "custom":false
+   },
+   {
+      "key":"buyer_note",
+      "desc":"",
+      "func":"none",
+      "name":"buyer_note",
+      "type":"text",
+      "label":"Комментарий покупателя",
+      "custom":false
+   },
+   {
+      "key":"buyer_status_date",
+      "desc":"",
+      "func":"none",
+      "name":"buyer_status_date",
+      "type":"timestamp without time zone",
+      "label":"Дата выставления статуса (покупатель)",
+      "custom":false
+   },
+   {
+      "key":"category",
+      "desc":"",
+      "func":"none",
+      "name":"category",
+      "type":"text",
+      "label":"Степень ликвидности",
+      "custom":false
+   },
+   {
+      "key":"city",
+      "desc":"",
+      "func":"none",
+      "name":"city",
+      "type":"text",
+      "label":"Город риэлтора покупателя",
+      "custom":false
+   },
+   {
+      "key":"client",
+      "desc":"",
+      "func":"none",
+      "name":"client",
+      "type":"text",
+      "label":"ФИО клиента",
+      "custom":false
+   },
+   {
+      "key":"cnt_rooms",
+      "desc":"",
+      "func":"none",
+      "name":"cnt_rooms",
+      "type":"integer",
+      "label":"Количество комнат",
+      "custom":false
+   },
+   {
+      "key":"created",
+      "desc":"",
+      "func":"none",
+      "name":"created",
+      "type":"timestamp without time zone",
+      "label":"Дата заявки",
+      "custom":false
+   },
+   {
+      "key":"date_deposit",
+      "desc":"",
+      "func":"none",
+      "name":"date_deposit",
+      "type":"timestamp without time zone",
+      "label":"Дата задатка",
+      "custom":false
+   },
+   {
+      "key":"deal_close_buy",
+      "desc":"",
+      "func":"none",
+      "name":"deal_close_buy",
+      "type":"timestamp without time zone",
+      "label":"Дата сделки покупатель",
+      "custom":false
+   },
+   {
+      "key":"deal_close_sell",
+      "desc":"",
+      "func":"none",
+      "name":"deal_close_sell",
+      "type":"timestamp without time zone",
+      "label":"Дата сделки продавец",
+      "custom":false
+   },
+   {
+      "key":"deal_date",
+      "desc":"",
+      "func":"none",
+      "name":"deal_date",
+      "type":"timestamp without time zone",
+      "label":"Дата сделки",
+      "custom":false
+   },
+   {
+      "key":"district",
+      "desc":"",
+      "func":"none",
+      "name":"district",
+      "type":"text",
+      "label":"Район",
+      "custom":false
+   },
+   {
+      "key":"event_name",
+      "desc":"",
+      "func":"none",
+      "name":"event_name",
+      "type":"text",
+      "label":"Тип просмотра",
+      "custom":false
+   },
+   {
+      "key":"manager_id",
+      "desc":"",
+      "func":"none",
+      "name":"manager_id",
+      "type":"integer",
+      "label":"Код менеджера покупателя",
+      "custom":false
+   },
+   {
+      "key":"manager",
+      "desc":"",
+      "func":"none",
+      "name":"manager",
+      "type":"text",
+      "label":"ФИО менеджера риэлтора покупателя",
+      "custom":false
+   },
+   {
+      "key":"manager_object",
+      "desc":"",
+      "func":"none",
+      "name":"manager_object",
+      "type":"text",
+      "label":"ФИО менеджера риэлтора продавца",
+      "custom":false
+   },
+   {
+      "key":"newhouses_gp",
+      "desc":"",
+      "func":"none",
+      "name":"newhouses_gp",
+      "type":"text",
+      "label":"ЖК новостройки",
+      "custom":false
+   },
+   {
+      "key":"o_id",
+      "desc":"",
+      "func":"none",
+      "name":"o_id",
+      "type":"integer",
+      "label":"Объект сделки",
+      "custom":false
+   },
+   {
+      "key":"pokaz_date",
+      "desc":"",
+      "func":"none",
+      "name":"pokaz_date",
+      "type":"timestamp without time zone",
+      "label":"Дата показа",
+      "custom":false
+   },
+   {
+      "key":"pokaz_object",
+      "desc":"",
+      "func":"none",
+      "name":"pokaz_object",
+      "type":"integer",
+      "label":"Объект показа",
+      "custom":false
+   },
+   {
+      "key":"rieltor",
+      "desc":"",
+      "func":"none",
+      "name":"rieltor",
+      "type":"text",
+      "label":"ФИО риэлтора покупателя",
+      "custom":false
+   },
+   {
+      "key":"rieltor_object",
+      "desc":"",
+      "func":"none",
+      "name":"rieltor_object",
+      "type":"text",
+      "label":"ФИО риэлтора продавца",
+      "custom":false
+   },
+   {
+      "key":"rop",
+      "desc":"",
+      "func":"none",
+      "name":"rop",
+      "type":"text",
+      "label":"ФИО РОПа покупателя",
+      "custom":false
+   },
+   {
+      "key":"seller_note",
+      "desc":"",
+      "func":"none",
+      "name":"seller_note",
+      "type":"text",
+      "label":"Комментарий продавца",
+      "custom":false
+   },
+   {
+      "key":"seller_status_date",
+      "desc":"",
+      "func":"none",
+      "name":"seller_status_date",
+      "type":"timestamp without time zone",
+      "label":"Дата выставления статуса (продавец)",
+      "custom":false
+   },
+   {
+      "key":"link_seller_ticket",
+      "desc":"",
+      "func":"none",
+      "name":"link_seller_ticket",
+      "type":"text",
+      "label":"Ссылка на заявку продавца",
+      "custom":false
+   },
+   {
+      "key":"seller_ticket_id",
+      "desc":"",
+      "func":"none",
+      "name":"seller_ticket_id",
+      "type":"integer",
+      "label":"Заявка продавца",
+      "custom":false
+   },
+   {
+      "key":"start_date",
+      "desc":"",
+      "func":"none",
+      "name":"start_date",
+      "type":"timestamp without time zone",
+      "label":"Дата приема на работу",
+      "custom":false
+   },
+   {
+      "key":"link_ticket",
+      "desc":"",
+      "func":"none",
+      "name":"link_ticket",
+      "type":"text",
+      "label":"Ссылка на заявку",
+      "custom":false
+   },
+   {
+      "key":"ticket_id",
+      "desc":"",
+      "func":"none",
+      "name":"ticket_id",
+      "type":"integer",
+      "label":"Номер заявки",
+      "custom":false
+   },
+   {
+      "key":"t_city_new",
+      "desc":"",
+      "func":"none",
+      "name":"t_city_new",
+      "type":"text",
+      "label":"Город заявки",
+      "custom":false
+   },
+   {
+      "key":"count_pokaz",
+      "desc":"",
+      "func":"none",
+      "name":"count_pokaz",
+      "type":"integer",
+      "label":"Количество показов",
+      "custom":false
+   },
+   {
+      "key":"class",
+      "desc":"",
+      "func":"none",
+      "name":"class",
+      "type":"text",
+      "label":"Класс недвижимости",
+      "custom":false
+   },
+   {
+      "key":"iniciator",
+      "desc":"",
+      "func":"none",
+      "name":"iniciator",
+      "type":"text",
+      "label":"Инициатор",
+      "custom":false
+   },
+   {
+      "key":"seller_status",
+      "desc":"",
+      "func":"none",
+      "name":"seller_status",
+      "type":"text",
+      "label":"Статус продавца",
+      "custom":false
+   },
+   {
+      "key":"buyer_status",
+      "desc":"",
+      "func":"none",
+      "name":"buyer_status",
+      "type":"text",
+      "label":"Статус покупателя",
+      "custom":false
+   },
+   {
+      "key":"licvid_demand",
+      "desc":"",
+      "func":"none",
+      "name":"licvid_demand",
+      "type":"text",
+      "label":"Степень ликвидности по спросу",
+      "custom":false
+   },
+   {
+      "key":"licvid_price",
+      "desc":"",
+      "func":"none",
+      "name":"licvid_price",
+      "type":"text",
+      "label":"Степень ликвидности по цене",
+      "custom":false
+   },
+   {
+      "key":"range_price",
+      "desc":"",
+      "func":"none",
+      "name":"range_price",
+      "type":"text",
+      "label":"Диапазон цен",
+      "custom":false
+   },
+   {
+      "key":"otmentka",
+      "desc":"",
+      "func":"none",
+      "name":"otmentka",
+      "type":"text",
+      "label":"Отметка о показе",
+      "custom":false
+   },
+   {
+      "key":"other_agency",
+      "desc":"",
+      "func":"none",
+      "name":"other_agency",
+      "type":"text",
+      "label":"Другое АН?",
+      "custom":false
+   },
+   {
+      "key":"count_pokaz_a",
+      "desc":"",
+      "func":"none",
+      "name":"count_pokaz_a",
+      "type":"text",
+      "label":"Количество показов у объекта",
+      "custom":false
+   },
+   {
+      "key":"newhouses_id",
+      "desc":"",
+      "func":"none",
+      "name":"newhouses_id",
+      "type":"text",
+      "label":"Код новостройки",
+      "custom":false
+   },
+   {
+      "key":"status_ticket",
+      "desc":"",
+      "func":"none",
+      "name":"status_ticket",
+      "type":"text",
+      "label":"Статус заявки",
+      "custom":false
+   },
+   {
+      "key":"price_range_valute",
+      "desc":"",
+      "func":"none",
+      "name":"price_range_valute",
+      "type":"text",
+      "label":"Диапазон цены(в валюте)",
+      "custom":false
+   },
+   {
+      "key":"department_name",
+      "desc":"",
+      "func":"none",
+      "name":"department_name",
+      "type":"text",
+      "label":"Отдел инициатора",
+      "custom":false
+   },
+   {
+      "key":"uchitivat",
+      "desc":"",
+      "func":"none",
+      "name":"uchitivat",
+      "type":"text",
+      "label":"Учитывать инициатора (Риэлтор/Менеджер)",
+      "custom":false
+   },
+   {
+      "key":"stazh_raboty_din",
+      "desc":"",
+      "func":"none",
+      "name":"stazh_raboty_din",
+      "type":"text",
+      "label":"Стаж работы риэлтора инициатора  (Динамическое поле) (0-3, 4-6, 6 и более)",
+      "custom":false
+   },
+   {
+      "key":"count_user_as_stage",
+      "desc":"",
+      "func":"none",
+      "name":"count_user_as_stage",
+      "type":"bigint",
+      "label":"Кол-во риэлторов в городе по стажу работы (0-3, 4-6, 6 и более)",
+      "custom":false
+   },
+   {
+      "key":"count_city_not_group_0",
+      "desc":"",
+      "func":"none",
+      "name":"count_city_not_group_0",
+      "type":"bigint",
+      "label":"Кол-во риэлторов в городе (без менеджеров и группы 0)",
+      "custom":false
+   },
+   {
+      "key":"count_city_udrt_sll",
+      "desc":"",
+      "func":"none",
+      "name":"count_city_udrt_sll",
+      "type":"bigint",
+      "label":"Кол-во риэлторов в городе (R+менеджеры)",
+      "custom":false
+   },
+   {
+      "key":"m_ticket",
+      "desc":"",
+      "func":"none",
+      "name":"m_ticket",
+      "type":"bigint",
+      "label":"Номер ипотечной заявки",
+      "custom":false
+   },
+   {
+      "key":"m_created",
+      "desc":"",
+      "func":"none",
+      "name":"m_created",
+      "type":"timestamp without time zone",
+      "label":"Дата создания ипотечной заявки",
+      "custom":false
+   },
+   {
+      "key":"last_action",
+      "desc":"",
+      "func":"none",
+      "name":"last_action",
+      "type":"text",
+      "label":"Этап ипотечной заявки",
+      "custom":false
+   },
+   {
+      "key":"manager_count",
+      "desc":"",
+      "func":"none",
+      "name":"manager_count",
+      "type":"bigint",
+      "label":"Кол-во риэлторов в группе",
+      "custom":false
+   },
+   {
+      "key":"cnt_group_manager",
+      "desc":"",
+      "func":"none",
+      "name":"cnt_group_manager",
+      "type":"bigint",
+      "label":"Кол-во риэлторов в группе на дату показа",
+      "custom":false
+   },
+   {
+      "key":"seller_rop",
+      "desc":"",
+      "func":"none",
+      "name":"seller_rop",
+      "type":"text",
+      "label":"ФИО РОПа продавца",
+      "custom":false
+   },
+   {
+      "key":"own_show",
+      "desc":"",
+      "func":"none",
+      "name":"own_show",
+      "type":"text",
+      "label":"Показ по своему объекту?",
+      "custom":false
+   },
+   {
+      "key":"is_crm",
+      "desc":"",
+      "func":"none",
+      "name":"is_crm",
+      "type":"text",
+      "label":"CRM/RIES",
+      "custom":false
+   },
+   {
+      "key":"deposit_buyer_statys",
+      "desc":"",
+      "func":"none",
+      "name":"deposit_buyer_statys",
+      "type":"double precision",
+      "label":"Кол-во дней от даты выставления статуса (покупатель) до даты задатка",
+      "custom":false
+   },
+   {
+      "key":"deposit_seller_statys",
+      "desc":"",
+      "func":"none",
+      "name":"deposit_seller_statys",
+      "type":"double precision",
+      "label":"Кол-во дней от даты выставления статуса (продавец) до даты задатка",
+      "custom":false
+   },
+   {
+      "key":"manager_status",
+      "desc":"",
+      "func":"none",
+      "name":"manager_status",
+      "type":"text",
+      "label":"Статус менеджера создателя показа",
+      "custom":false
+   },
+   {
+      "key":"rielt_status",
+      "desc":"",
+      "func":"none",
+      "name":"rielt_status",
+      "type":"text",
+      "label":"Статус создателя показа",
+      "custom":false
+   },
+   {
+      "key":"count_user_group_everyday",
+      "desc":"",
+      "func":"none",
+      "name":"count_user_group_everyday",
+      "type":"bigint",
+      "label":"Срезовое кол-во риелторов в группах (без группы 0 и без менеджеров)",
+      "custom":false
+   },
+   {
+      "key":"criteria_seller",
+      "desc":"",
+      "func":"none",
+      "name":"criteria_seller",
+      "type":"text",
+      "label":"ID вариантов комментариев (продавец)",
+      "custom":false
+   },
+   {
+      "key":"criteria_buyer",
+      "desc":"",
+      "func":"none",
+      "name":"criteria_buyer",
+      "type":"text",
+      "label":"ID вариантов комментариев (покупатель)",
+      "custom":false
+   },
+   {
+      "key":"manager_fio_slice_seller",
+      "desc":"",
+      "func":"none",
+      "name":"manager_fio_slice_seller",
+      "type":"text",
+      "label":"ФИО менеджера продавца(срезовое)",
+      "custom":false
+   },
+   {
+      "key":"manager_fio_slice_buy",
+      "desc":"",
+      "func":"none",
+      "name":"manager_fio_slice_buy",
+      "type":"text",
+      "label":"ФИО менеджера покупателя(срезовое)",
+      "custom":false
+   },
+   {
+      "key":"count_rielt_not_group_o_not_manager_not_svet",
+      "desc":"",
+      "func":"none",
+      "name":"count_rielt_not_group_o_not_manager_not_svet",
+      "type":"bigint",
+      "label":"Кол-во риэлторов в городе (без гр.0, без мен. выш. из светоф.)",
+      "custom":false
+   },
+   {
+      "key":"parent_id",
+      "desc":"",
+      "func":"none",
+      "name":"parent_id",
+      "type":"bigint",
+      "label":"Номер родительской заявки",
+      "custom":false
+   },
+   {
+      "key":"parent_created",
+      "desc":"",
+      "func":"none",
+      "name":"parent_created",
+      "type":"timestamp without time zone",
+      "label":"Дата создания родительской заявки",
+      "custom":false
+   },
+   {
+      "key":"source_pokaz",
+      "desc":"",
+      "func":"none",
+      "name":"source_pokaz",
+      "type":"text",
+      "label":"Источник создания показа",
+      "custom":false
+   },
+   {
+      "key":"count_rielt_not_group_o_not_manager_not_svet_0_1",
+      "desc":"",
+      "func":"none",
+      "name":"count_rielt_not_group_o_not_manager_not_svet_0_1",
+      "type":"bigint",
+      "label":"Кол-во риэлторов (0-1) в городе (без гр.0, без мен. выш. из светоф.)",
+      "custom":false
+   },
+   {
+      "key":"count_rielt_not_group_o_not_manager_not_svet_6_plus",
+      "desc":"",
+      "func":"none",
+      "name":"count_rielt_not_group_o_not_manager_not_svet_6_plus",
+      "type":"bigint",
+      "label":"Кол-во риэлторов 6+ в городе (без гр.0, без мен. выш. из светоф.)",
+      "custom":false
+   },
+   {
+      "key":"count_rielt_not_group_o_not_manager_not_svet_1_6",
+      "desc":"",
+      "func":"none",
+      "name":"count_rielt_not_group_o_not_manager_not_svet_1_6",
+      "type":"bigint",
+      "label":"Кол-во риэлторов (1-6) в городе (без гр.0, без мен. выш. из светоф.)",
+      "custom":false
+   },
+   {
+      "key":"count_rielt_not_group_o_not_manager_not_svet_0_6",
+      "desc":"",
+      "func":"none",
+      "name":"count_rielt_not_group_o_not_manager_not_svet_0_6",
+      "type":"bigint",
+      "label":"Кол-во риэлторов (0-6) в городе (без гр.0, без мен. выш. из светоф.)",
+      "custom":false
+   },
+   {
+      "key":"stazh_raboty",
+      "desc":"",
+      "func":"none",
+      "name":"stazh_raboty",
+      "type":"text",
+      "label":"Стаж",
+      "custom":false
+   },
+   {
+      "key":"created_pokaz_days",
+      "desc":"",
+      "func":"none",
+      "name":"created_pokaz_days",
+      "type":"double precision",
+      "label":"Кол-во дней от даты создания объекта до даты показа",
+      "custom":false
+   },
+   {
+      "key":"filial",
+      "desc":"",
+      "func":"none",
+      "name":"filial",
+      "type":"text",
+      "label":"Филиал/Франчайзи",
+      "custom":false
+   },
+   {
+      "key":"object_created",
+      "desc":"",
+      "func":"none",
+      "name":"object_created",
+      "type":"timestamp without time zone",
+      "label":"Дата создания объекта",
+      "custom":false
+   },
+   {
+      "key":"stazh_raboty_moment_event",
+      "desc":"",
+      "func":"none",
+      "name":"stazh_raboty_moment_event",
+      "type":"text",
+      "label":"Стаж на момент показа",
+      "custom":false
+   },
+   {
+      "key":"stazh_raboty_moment_event_big_period",
+      "desc":"",
+      "func":"none",
+      "name":"stazh_raboty_moment_event_big_period",
+      "type":"text",
+      "label":"Стаж на момент показа (7-12; 13-24; 24+)",
+      "custom":false
+   },
+   {
+      "key":"realtor_id",
+      "desc":"",
+      "func":"none",
+      "name":"realtor_id",
+      "type":"bigint",
+      "label":"Код риэлтора покупателя",
+      "custom":false
+   },
+   {
+      "key":"buyer_realtor_status",
+      "desc":"",
+      "func":"none",
+      "name":"buyer_realtor_status",
+      "type":"text",
+      "label":"Статус риэлтора покупателя",
+      "custom":false
+   },
+   {
+      "key":"seller_realtor_status",
+      "desc":"",
+      "func":"none",
+      "name":"seller_realtor_status",
+      "type":"text",
+      "label":"Статус риэлтора продавца",
+      "custom":false
+   },
+   {
+      "key":"contract",
+      "desc":"",
+      "func":"none",
+      "name":"contract",
+      "type":"text",
+      "label":"Наличие договора (да/нет)",
+      "custom":false
+   },
+   {
+      "key":"city_status",
+      "desc":"",
+      "func":"none",
+      "name":"city_status",
+      "type":"text",
+      "label":"Статус города",
+      "custom":false
+   },
+   {
+      "key":"country",
+      "desc":"",
+      "func":"none",
+      "name":"country",
+      "type":"text",
+      "label":"Страна",
+      "custom":false
+   },
+   {
+      "key":"link_pokaz_object",
+      "desc":"",
+      "func":"none",
+      "name":"link_pokaz_object",
+      "type":"text",
+      "label":"Ссылка на объект показа",
+      "custom":false
+   },
+   {
+      "key":"link_object",
+      "desc":"",
+      "func":"none",
+      "name":"link_object",
+      "type":"text",
+      "label":"Ссылка на объект сделки",
+      "custom":false
+   },
+   {
+      "key":"rieltor_phone",
+      "desc":"",
+      "func":"none",
+      "name":"rieltor_phone",
+      "type":"text",
+      "label":"Телефон риэлтора покупателя",
+      "custom":false
+   },
+   {
+      "key":"rieltor_object_phone",
+      "desc":"",
+      "func":"none",
+      "name":"rieltor_object_phone",
+      "type":"text",
+      "label":"Телефон риэлтора продавца",
+      "custom":false
+   },
+   {
+      "key":"plan_pokaz_date",
+      "desc":"",
+      "func":"none",
+      "name":"plan_pokaz_date",
+      "type":"timestamp without time zone",
+      "label":"Дата назначения показа",
+      "custom":false
+   },
+   {
+      "key":"rop_man_sell",
+      "desc":"",
+      "func":"none",
+      "name":"rop_man_sell",
+      "type":"text",
+      "label":"ФИО РОПа менеджера продавца (срезовое)",
+      "custom":false
+   },
+   {
+      "key":"rop_man_buy",
+      "desc":"",
+      "func":"none",
+      "name":"rop_man_buy",
+      "type":"text",
+      "label":"ФИО РОПа менеджера покупателя (срезовое)",
+      "custom":false
+   },
+   {
+      "key":"seller_note_other",
+      "desc":"",
+      "func":"none",
+      "name":"seller_note_other",
+      "type":"text",
+      "label":"Комментарий продавца при отметке Другое",
+      "custom":false
+   },
+   {
+      "key":"buyer_note_other",
+      "desc":"",
+      "func":"none",
+      "name":"buyer_note_other",
+      "type":"text",
+      "label":"Комментарий покупателя при отметке Другое",
+      "custom":false
+   },
+   {
+      "key":"showing_date_note",
+      "desc":"",
+      "func":"none",
+      "name":"showing_date_note",
+      "type":"text",
+      "label":"Комментарий по показу",
+      "custom":false
+   },
+   {
+      "key":"other_agency_phone",
+      "desc":"Данное поле берётся из показов, заполняется в ручную (могут быть неполные данные)",
+      "func":"none",
+      "name":"other_agency_phone",
+      "type":"text",
+      "label":"Телефон риэлтора/сотрудника другого агентства",
+      "custom":false
+   },
+   {
+      "key":"other_agency_fio",
+      "desc":"Данное поле берётся из показов, заполняется в ручную (могут быть неполные данные)",
+      "func":"none",
+      "name":"other_agency_fio",
+      "type":"text",
+      "label":"ФИО риэлтора/сотрудника другого агентства",
+      "custom":false
+   }
+]
